@@ -1,0 +1,32 @@
+/* .product-detail{
+    max-height: 100vh;
+    background-color: #ffffff !important;
+} */
+
+.bg-light {
+    background-color: #ffffff !important;
+  }
+  
+  @media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh important;
+    }
+    }
+
+    .gradient-custom {
+      /* fallback for old browsers */
+      background: #6a11cb;
+      
+      /* Chrome 10-25, Safari 5.1-6 */
+      background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+            background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+   }
+/*    
+   .product-detail card .h-100{
+
+   } */
+   .img-responsive {
+    max-width: 400px;
+    height: auto;
+    width: 100%;
+  }
